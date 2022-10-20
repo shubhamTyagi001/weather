@@ -1,0 +1,51 @@
+.mid{
+    height:80vh ;
+    background-color: blue;
+    display: flex;
+}
+
+.left{
+    flex: 1;
+     position: relative;
+     top: 40%;
+     left: 2%;
+}
+
+.center{
+    flex: 3;
+    background-color: aqua;
+}
+.right{
+    flex: 2;
+}
+.inner{
+  position:relative;
+  /* top: 20%; */
+  bottom: 30%;
+}
+.temp{
+    font-size: 1000%;
+  
+
+}
+.inner2{
+    display: flex;
+    gap: 3%;
+    position: relative;
+    bottom: 60%;
+    left: 30%;
+}
+
+.inner3 {
+    display: flex;
+    gap: 3%;
+    position: relative;
+    bottom: 58%;
+    left: 28%;
+}
+
+  svg {
+      color: white;
+      height: 30%;
+      size-adjust: 80%;
+  }

@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
-
+import Display from './Components/Display';
 function App() {
+  useEffect(()=>{
+    fetch('http://api.weatherstack.com/current?access_key=6a27ee8f01a895298d8fcaef54b35ad6&query=India').then((response)=>
+      response.json()
+    ).then((data)=>{
+      console.log(data)
+    })
+  })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    fjbjgfbjjf
+    <Display/>
     </div>
   );
 }
